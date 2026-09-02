@@ -51,13 +51,9 @@ For users in mainland China, [ModelScope](https://www.modelscope.cn/) may provid
 ```bash
 pip install modelscope
 
-modelscope download --model AI-ModelScope/stable-diffusion-v1-4 \
-  --local_dir /path/to/stable-diffusion-v1-4
+modelscope download --model 'AI-ModelScope/stable-diffusion-v1-4' --include '*.bin' --local_dir 'autodl-tmp/stable-diffusion-v1-4'
 
-modelscope download --model AI-ModelScope/stable-diffusion-2-1 \
-  --exclude "*.bin" "*.ckpt" "v2-1_768-ema-pruned.safetensors" \
-    "v2-1_768-nonema-pruned.safetensors" \
-  --local_dir /path/to/stable-diffusion-v2-1-base
+modelscope download --model 'AI-ModelScope/stable-diffusion-v2-1' --exclude '*.bin' '*.ckpt' 'v2-1_768-ema-pruned.safetensors' 'v2-1_768-nonema-pruned.safetensors' --local_dir 'autodl-tmp/stable-diffusion-v2-1'
 ```
 
 ### Dataset
