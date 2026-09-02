@@ -1,9 +1,9 @@
-# MSLW: A Unified Multi-step Watermark Embedding Framework for Latent Diffusion Models
+# MsLW: A Unified Multi-step Watermark Embedding Framework for Latent Diffusion Models
 
 [![Paper](https://img.shields.io/badge/IEEE%20T--CSVT-Paper-blue)](https://doi.org/10.1109/TCSVT.2026.3724144)
 [![License](https://img.shields.io/badge/License-BSD--3--Clause--Clear-green.svg)](LICENSE)
 
-This repository provides the official implementation of **MSLW: A Unified Multi-step Watermark Embedding Framework for Latent Diffusion Models**.
+This repository provides the official implementation of **MsLW: A Unified Multi-step Watermark Embedding Framework for Latent Diffusion Models**.
 
 > 📄 **Publication:** IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), **Early Access**, 2026. [https://doi.org/10.1109/TCSVT.2026.3724144](https://doi.org/10.1109/TCSVT.2026.3724144)
 
