@@ -1,0 +1,48 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Training logs and experiment trackers
+logs/
+lightning_logs/
+wandb/
+runs/
+
+# Generated data and evaluation outputs
+outputs/
+results/
+watermarked-images/
+watermark-messages/
+decoding-results/
+
+# Local datasets and downloaded backbone models
+data/
+datasets/
+pretrained_models/
+stable-diffusion-v1-4/
+stable-diffusion-v2-1-base/
+
+# Temporary files
+*.tmp
+*.log
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
